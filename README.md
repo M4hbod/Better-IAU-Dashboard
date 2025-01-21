@@ -27,7 +27,7 @@ Tampermonkey scripts to improve and enhance the dashboard experience at Islamic 
 
 ## Video Tutorial
 
-Coming soon!
+https://github.com/user-attachments/assets/22fb7edb-5926-46fd-8abf-7ce6d3b74e3c
 
 ## Contributing
 
