@@ -15,7 +15,7 @@ Tampermonkey scripts to improve and enhance the dashboard experience at Islamic 
    - [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 2. Click the script link below to install:
-   - [Course Registration Cleaner](https://raw.githubusercontent.com/M4hbod/Better-IAU-Dashboard/main/Tampermonkey/course-registration-cleaner.js)
+   - [Course Registration Cleaner](https://raw.githubusercontent.com/M4hbod/Better-IAU-Dashboard/main/Tampermonkey/course-registration-cleaner.user.js)
 
 ## Usage
 
