@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         IAU Evaluation Autofill
 // @namespace    https://github.com/M4hbod/Better-IAU-Dashboard
-// @version      1.0
-// @description  Adds a panel to auto-select evaluation scores for all questions in the IAU evaluation form.
+// @version      1.1
+// @description  Adds a panel to auto-select evaluation scores like "خیلی خوب" for all questions in the IAU evaluation form.
 // @author       m4hbod
 // @match        https://stdn.iau.ir/Student/studentProffEvaluation.do*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=iau.ir
@@ -53,12 +53,15 @@
     }
 
     function applySelection(label) {
-        const radios = document.querySelectorAll('input[type="radio"]');
-        radios.forEach(radio => {
-            if (radio.title.trim() === label) {
-                radio.checked = true;
-                radio.click();
-            }
+        const questions = document.querySelectorAll('tr');
+        questions.forEach(row => {
+            const radios = row.querySelectorAll('input[type="radio"]');
+            radios.forEach(radio => {
+                if (radio.title.trim() === label) {
+                    radio.checked = true;
+                    radio.click();
+                }
+            });
         });
     }
 
