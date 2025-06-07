@@ -5,7 +5,7 @@
 // @description  Adds a panel to auto-select evaluation scores for all questions in the IAU evaluation form.
 // @author       m4hbod
 // @match        https://stdn.iau.ir/Student/studentProffEvaluation.do*
-// @icon         https://stdn.iau.ir/favicon.ico
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=iau.ir
 // @grant        none
 // @license      MIT
 // @updateURL    https://raw.githubusercontent.com/M4hbod/Better-IAU-Dashboard/main/Tampermonkey/iau-evaluation-autofill.user.js
